@@ -1,7 +1,11 @@
 [project]
 name = "buildingwithclaudeapi"
 version = "0.1.0"
-description = "Add your description here"
+description = "Testing out building with UV"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "anthropic>=1.6.0",
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.3",
+]
